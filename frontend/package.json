@@ -98,13 +98,15 @@
     "zod": "^4.4.3",
     "zod-validation-error": "^4.0.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.3.0"
+  },
   "scripts": {
-  "dev": "vite",
-  "build": "vite build",
-  "lint": "eslint .",
-  "preview": "vite preview"
-},
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC"
